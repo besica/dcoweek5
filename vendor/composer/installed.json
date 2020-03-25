@@ -1795,6 +1795,63 @@
         }
     },
     {
+        "name": "drupal/bootstrap_layouts",
+        "version": "5.1.0",
+        "version_normalized": "5.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/bootstrap_layouts.git",
+            "reference": "8.x-5.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/bootstrap_layouts-8.x-5.1.zip",
+            "reference": "8.x-5.1",
+            "shasum": "b304b1c9d0ea30646e6dff7aa32405a21a11d49f"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-5.x": "5.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-5.1",
+                "datestamp": "1516598286",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "darol100",
+                "homepage": "https://www.drupal.org/user/2667123"
+            },
+            {
+                "name": "hctom",
+                "homepage": "https://www.drupal.org/user/112790"
+            },
+            {
+                "name": "markcarver",
+                "homepage": "https://www.drupal.org/user/501638"
+            }
+        ],
+        "description": "This module is going to generate layouts with Bootstrap grid system.",
+        "homepage": "https://www.drupal.org/project/bootstrap_layouts",
+        "support": {
+            "source": "https://git.drupalcode.org/project/bootstrap_layouts"
+        }
+    },
+    {
         "name": "drupal/bootstrap_paragraphs",
         "version": "2.0.0-beta6",
         "version_normalized": "2.0.0.0-beta6",
@@ -1852,6 +1909,71 @@
         "homepage": "https://www.drupal.org/project/bootstrap_paragraphs",
         "support": {
             "source": "https://git.drupalcode.org/project/bootstrap_paragraphs"
+        }
+    },
+    {
+        "name": "drupal/contact_formatter",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/contact_formatter.git",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/contact_formatter-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "4c71c480b504a67224aa83e253b5ce3568303446"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1546037280",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "albertski",
+                "homepage": "https://www.drupal.org/user/1327432"
+            },
+            {
+                "name": "michaelpporter",
+                "homepage": "https://www.drupal.org/user/845350"
+            },
+            {
+                "name": "mikeacklin",
+                "homepage": "https://www.drupal.org/user/1198900"
+            },
+            {
+                "name": "thejimbirch",
+                "homepage": "https://www.drupal.org/user/2507260"
+            }
+        ],
+        "description": "Field Formatter for Contact Forms",
+        "homepage": "https://www.drupal.org/project/contact_formatter",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/contact_formatter",
+            "issues": "https://www.drupal.org/project/issues/contact_formatter"
         }
     },
     {
@@ -2750,6 +2872,59 @@
         "homepage": "https://www.drupal.org/project/paragraphs",
         "support": {
             "source": "https://git.drupalcode.org/project/paragraphs"
+        }
+    },
+    {
+        "name": "drupal/radix_layouts",
+        "version": "4.1.0",
+        "version_normalized": "4.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/radix_layouts.git",
+            "reference": "8.x-4.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/radix_layouts-8.x-4.1.zip",
+            "reference": "8.x-4.1",
+            "shasum": "c5aa0e5a72e13c2f163cc4a18d0816cb11018357"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-4.x": "4.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-4.1",
+                "datestamp": "1551641284",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "arshadcn",
+                "homepage": "https://www.drupal.org/user/571032"
+            },
+            {
+                "name": "dsnopek",
+                "homepage": "https://www.drupal.org/user/266527"
+            }
+        ],
+        "description": "Responsive layouts built on the Bootstrap 3 grid system.",
+        "homepage": "https://www.drupal.org/project/radix_layouts",
+        "support": {
+            "source": "https://git.drupalcode.org/project/radix_layouts"
         }
     },
     {
